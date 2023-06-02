@@ -16,7 +16,7 @@ function Jose() {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title></Modal.Title>
         </Modal.Header>
         <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
         <Modal.Footer>

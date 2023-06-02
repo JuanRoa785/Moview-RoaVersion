@@ -1,0 +1,9 @@
+#p-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-title {
+    text-align: center;
+}

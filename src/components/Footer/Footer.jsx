@@ -8,11 +8,9 @@ import Guillermo from '../Presentation/Guillermo';
 import Juan from '../Presentation/Juan';
 import Jose from '../Presentation/Jose';
 
-
 function Footer() {
   return (
     <Container fluid style={{backgroundColor:'#121212'}} className='p-5'>
-
       {/* Código de la primera fila que contiene el logo, el made by y las redes sociales */}
       <Row className='text-white'>
 

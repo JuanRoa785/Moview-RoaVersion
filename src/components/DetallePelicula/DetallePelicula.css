@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    color: white;
+  }
+  
+.infoBasica {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.DP-posterContainer {
+    width:30vw;
+    display: flex;
+    justify-content: center;
+}
+
+.DP-posterContainer > img {
+    width: 25vw;
+    margin-top:1vh;
+    margin-bottom:3vh;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.DP-detalles {
+    width: 70vw;
+    text-align: center;
+}
+
+.DP-detalles > .DP-datos{
+    text-align: justify;
+}
+
+.DP-datos > p {
+    padding: 0px;
+    margin: 0px;
+}
+
+

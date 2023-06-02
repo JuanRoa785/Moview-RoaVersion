@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import "./presentation.css"
 
 function Juan() {
   const [show, setShow] = useState(false);
@@ -14,15 +15,14 @@ function Juan() {
         Juan
       </Button>
 
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+      <Modal show={show} onHide={handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
+      <Modal.Header className="d-flex" closeButton>
+      <Modal.Title id="p-title"><b>Datos Desarrollador:</b></Modal.Title>
+      </Modal.Header>
+        <Modal.Body>
+        
+        </Modal.Body>
         <Modal.Footer>
-          <Button variant="primary" onClick={handleClose}>
-            Okey!
-          </Button>
         </Modal.Footer>
       </Modal>
     </>

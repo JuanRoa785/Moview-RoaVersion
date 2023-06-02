@@ -3,6 +3,7 @@ import star from '../../img/estrella.png'
 import './InTheater.css'
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
+
 function inTheater() {
   return (
     <Carousel fade>
