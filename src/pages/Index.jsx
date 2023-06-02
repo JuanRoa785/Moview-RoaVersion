@@ -9,12 +9,12 @@ import DetallePelicula from '../components/DetallePelicula/DetallePelicula'
 function Index() {
   return (
     <>
-      {/* <MainCarrusel />
+      <MainCarrusel />
       <h2 id="inTheater">In Theater:</h2> 
       <Theater />
       <h2 id="Trending">Trending Movies:</h2> 
-      <Trending /> */}
-      <DetallePelicula />
+      <Trending />
+      {/* <DetallePelicula /> */}
     </>
   )
 }
